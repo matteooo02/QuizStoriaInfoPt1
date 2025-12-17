@@ -83,11 +83,10 @@ function render() {
 function checkAnswer(choice, button) {
     const q = getCurrentQuestion();
 
-
     const buttons = document.querySelectorAll("#options button");
     buttons.forEach(b => b.disabled = true);
 
-    // salva risposta SOLO in modalità esame
+    // salva risposta in modalità esame
     if (examMode) {
         answers[i] = choice;
     }
@@ -95,7 +94,7 @@ function checkAnswer(choice, button) {
     if (choice === q.answer) {
         button.classList.add("correct");
 
-        // feedback SOLO fuori dall'esame
+        // feedback testuale solo fuori dall'esame
         if (!examMode) {
             document.getElementById("feedback").textContent = "✅ Giusto";
         }
@@ -103,20 +102,21 @@ function checkAnswer(choice, button) {
     } else {
         button.classList.add("wrong");
 
-        // feedback SOLO fuori dall'esame
+        // evidenzia SEMPRE la risposta corretta
+        buttons.forEach(b => {
+            if (b.textContent.startsWith(q.answer)) {
+                b.classList.add("correct");
+            }
+        });
+
+        // feedback testuale solo fuori dall'esame
         if (!examMode) {
             document.getElementById("feedback").textContent =
                 `❌ Sbagliato (era ${q.answer})`;
-
-            // evidenzia risposta corretta
-            buttons.forEach(b => {
-                if (b.textContent.startsWith(q.answer)) {
-                    b.classList.add("correct");
-                }
-            });
         }
     }
 }
+
 
 
 
