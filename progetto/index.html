@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="it">
+<div class="top-controls">
+    <button class="toolbar-btn" onclick="showStats()">📊 Statistiche</button>
+    <button class="toolbar-btn" onclick="startWeakReview()">🎯 Ripassa le più sbagliate</button>
+    <button id="examBtn" onclick="startExam()">🎓 Modalità Esame</button>
+    <button id="themeToggle">🌙 Dark mode</button>
+    <button id="exitExamBtn" onclick="exitExam()" style="display:none">
+        ⬅️ Esci dall’esame
+    </button>
+    <button id="resetStatsBtn" onclick="resetStats()" title="Reset statistiche">
+        RESET 🗑️
+    </button>
+</div>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Storia Informatica</title>
+</head>
+<body>
+
+<div id="timer"></div>
+
+
+
+<div class="app">
+    <div id="counter"></div>
+    <h2 id="question"></h2>
+    <div id="options"></div>
+    <p id="feedback"></p>
+    <button class="next" onclick="next()">Prossima</button>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
+
+<footer class="footer">
+    Made by <strong>@matteoloca</strong>
+</footer>
+
