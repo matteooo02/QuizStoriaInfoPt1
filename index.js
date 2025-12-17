@@ -37,7 +37,7 @@ function parseQuestions(text) {
 
     render();
 }
-
+//
 function render() {
     answered = false;
     const q = getCurrentQuestion();
