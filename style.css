@@ -283,3 +283,21 @@ body.dark .toolbar-btn:hover {
 .back-btn:active {
     transform: translateY(1px);
 }
+@media (max-width: 600px) {
+    .app {
+        width: 100%;
+        margin: 0;
+        padding: 16px;
+        border-radius: 0;
+    }
+
+    button {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .toolbar {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+}

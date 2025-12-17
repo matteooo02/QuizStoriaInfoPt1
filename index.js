@@ -80,9 +80,10 @@ function render() {
 
 
 function check(choice, button) {
-    const correct = questions[i].answer;
-    const buttons = document.querySelectorAll("#options button");
+    const q = getCurrentQuestion();
+    const correct = q.answer;
 
+    const buttons = document.querySelectorAll("#options button");
     buttons.forEach(b => b.disabled = true);
 
     if (choice === correct) {
@@ -100,6 +101,7 @@ function check(choice, button) {
         });
     }
 }
+
 
 
 function next() {
@@ -178,29 +180,7 @@ function updateTimer() {
         `⏱️ ${min}:${sec.toString().padStart(2, "0")}`;
 }
 
-function checkExam(choice, button) {
-    const q = examQuestions[i];
-    const buttons = document.querySelectorAll("#options button");
 
-    buttons.forEach(b => b.disabled = true);
-
-    answers[i] = choice;
-
-    if (choice === q.answer) {
-        button.classList.add("correct");
-        document.getElementById("feedback").textContent = "✅ Corretta";
-    } else {
-        button.classList.add("wrong");
-        document.getElementById("feedback").textContent =
-            `❌ Sbagliata (era ${q.answer})`;
-
-        buttons.forEach(b => {
-            if (b.textContent.startsWith(q.answer)) {
-                b.classList.add("correct");
-            }
-        });
-    }
-}
 
 function finishExam() {
     clearInterval(timerInterval);
@@ -375,4 +355,11 @@ function resetStats() {
 
     localStorage.removeItem("stats");
     alert("Statistiche azzerate ✅");
+}
+function getCurrentQuestion() {
+    return reviewMode
+        ? reviewQuestions[i]
+        : examMode
+            ? examQuestions[i]
+            : questions[i];
 }
