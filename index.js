@@ -40,11 +40,8 @@ function parseQuestions(text) {
 
 function render() {
     answered = false;
-    const q = reviewMode
-        ? reviewQuestions[i]
-        : examMode
-            ? examQuestions[i]
-            : questions[i];
+    const q = getCurrentQuestion();
+
 
     document.getElementById("counter").textContent =
         reviewMode
@@ -68,10 +65,14 @@ function render() {
 
         btn.onclick = () => {
             if (answered) return;
-            check(opt[0], btn);
+
+            checkAnswer(opt[0], btn);
+
             answered = true;
             document.querySelector(".next").disabled = false;
         };
+
+
 
         optDiv.appendChild(btn);
     });
@@ -79,28 +80,45 @@ function render() {
 
 
 
-function check(choice, button) {
+function checkAnswer(choice, button) {
     const q = getCurrentQuestion();
-    const correct = q.answer;
+
 
     const buttons = document.querySelectorAll("#options button");
     buttons.forEach(b => b.disabled = true);
 
-    if (choice === correct) {
+    // salva risposta SOLO in modalità esame
+    if (examMode) {
+        answers[i] = choice;
+    }
+
+    if (choice === q.answer) {
         button.classList.add("correct");
-        document.getElementById("feedback").textContent = "✅ Giusto";
+
+        // feedback SOLO fuori dall'esame
+        if (!examMode) {
+            document.getElementById("feedback").textContent = "✅ Giusto";
+        }
+
     } else {
         button.classList.add("wrong");
-        document.getElementById("feedback").textContent =
-            `❌ Sbagliato (era ${correct})`;
 
-        buttons.forEach(b => {
-            if (b.textContent.startsWith(correct)) {
-                b.classList.add("correct");
-            }
-        });
+        // feedback SOLO fuori dall'esame
+        if (!examMode) {
+            document.getElementById("feedback").textContent =
+                `❌ Sbagliato (era ${q.answer})`;
+
+            // evidenzia risposta corretta
+            buttons.forEach(b => {
+                if (b.textContent.startsWith(q.answer)) {
+                    b.classList.add("correct");
+                }
+            });
+        }
     }
 }
+
+
 
 
 
