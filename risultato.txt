@@ -107,10 +107,10 @@ D) il Basic, non strutturato, il Fortran, il C
 RISPOSTA: A
 
 DOMANDA: Tra i linguaggi di programmazione studiati, due di questi sono stati ampiamente criticati. Essi sono:
-A) 1) Il Simula 67, perché cercò di migliorare i difetti dell'Algol riformulandolo secondo il paradigma Object Oriented, ma alla fine risultava difficile usarlo anche per scrivere programmi semplici; 2) lo Smalltalk, perché cercò di migliorare i difetti del Simula 67, ma prevedeva un sistema di tipi troppo rigido e inadatto al paradigma Object Oriented.
-B) 1) Il COBOL, perché adatto solo per le applicazioni commerciali, tanto che alcuni consideravano addirittura criminale l'insegnarlo; 2) Il BASIC, perché favoriva la scrittura di programmi non strutturati e confusi, e secondo alcuni ricercatori chi aveva imparato il BASIC non avrebbe più potuto imparare a programmare.
-C) 1) Il LISP che, a causa di una sintassi bizzarra che richiedeva un uso esagerato di parentesi, era enormemente difficile da compilare e fu spesso soggetto di critiche e scherno da parte dei programmatori; 2) il Prolog, che a causa della sua inefficienza fu il responsabile del fallimento del progetto noto come "5th Generation Computer Systems (FGCS)"
-D) 1) L'Algol, che per quanto efficiente e portabile, costringeva a scrivere programmi difficili da comprendere; 2) Il Fortran, non strutturato e inefficiente, poco portabile e non tipato.
+A) Il Simula 67, perché cercò di migliorare i difetti dell'Algol riformulandolo secondo il paradigma Object Oriented, ma alla fine risultava difficile usarlo anche per scrivere programmi semplici; lo Smalltalk, perché cercò di migliorare i difetti del Simula 67, ma prevedeva un sistema di tipi troppo rigido e inadatto al paradigma Object Oriented.
+B) Il COBOL, perché adatto solo per le applicazioni commerciali, tanto che alcuni consideravano addirittura criminale l'insegnarlo; Il BASIC, perché favoriva la scrittura di programmi non strutturati e confusi, e secondo alcuni ricercatori chi aveva imparato il BASIC non avrebbe più potuto imparare a programmare.
+C) Il LISP che, a causa di una sintassi bizzarra che richiedeva un uso esagerato di parentesi, era enormemente difficile da compilare e fu spesso soggetto di critiche e scherno da parte dei programmatori; il Prolog, che a causa della sua inefficienza fu il responsabile del fallimento del progetto noto come "5th Generation Computer Systems (FGCS)"
+D) L'Algol, che per quanto efficiente e portabile, costringeva a scrivere programmi difficili da comprendere; Il Fortran, non strutturato e inefficiente, poco portabile e non tipato.
 RISPOSTA: B
 
 DOMANDA: Negli anni '60:
@@ -135,31 +135,31 @@ D) Si diffusero enormemente negli anni ’80 grazie soprattutto al sistema Linux
 RISPOSTA: B
 
 DOMANDA: L’ALGOL:
-A) Grazie alla sua eleganza ispirò lo sviluppo del BASIC  
-B) Sostituì il FORTRAN negli anni '60  
-C) Fu, insieme al BASIC, il linguaggio più diffuso e usato degli anni '60, soprattutto in ambito commerciale  
-D) Fu il primo linguaggio a definire in modo preciso i concetti di call by value, by name, e by reference  
+A) Grazie alla sua eleganza ispirò lo sviluppo del BASIC
+B) Sostituì il FORTRAN negli anni '60
+C) Fu, insieme al BASIC, il linguaggio più diffuso e usato degli anni '60, soprattutto in ambito commerciale
+D) Fu il primo linguaggio a definire in modo preciso i concetti di call by value, by name, e by reference
 RISPOSTA: D
 
 DOMANDA: Il linguaggio C:
-A) Ha tra le sue qualità la portabilità e l’efficienza  
-B) Dopo l’enorme diffusione degli anni ’80, è ormai stato soppiantato dal linguaggio Java  
-C) Permette di scrivere programmi allo stesso tempo estremamente sintetici e facilmente comprensibili  
-D) Fu progettato inizialmente per essere usato nello sviluppo del sistema operativo MULTICS  
+A) Ha tra le sue qualità la portabilità e l’efficienza
+B) Dopo l’enorme diffusione degli anni ’80, è ormai stato soppiantato dal linguaggio Java
+C) Permette di scrivere programmi allo stesso tempo estremamente sintetici e facilmente comprensibili
+D) Fu progettato inizialmente per essere usato nello sviluppo del sistema operativo MULTICS
 RISPOSTA: A
 
 DOMANDA: Negli anni '50:
-A) Corrado Böhm e Giuseppe Jacopini arrivarono alla formulazione di un famoso teorema sulla programmazione strutturata  
-B) fu molto forte il dibattito sulle problematiche legate al GOTO e al cosiddetto "spaghetti code"  
-C) furono sviluppati, quasi in parallelo, il FORTRAN, il LISP, e il BASIC  
-D) le ricerche nel campo dei compilatori portarono allo sviluppo dei primi linguaggi ad alto livello  
+A) Corrado Böhm e Giuseppe Jacopini arrivarono alla formulazione di un famoso teorema sulla programmazione strutturata
+B) fu molto forte il dibattito sulle problematiche legate al GOTO e al cosiddetto "spaghetti code"
+C) furono sviluppati, quasi in parallelo, il FORTRAN, il LISP, e il BASIC
+D) le ricerche nel campo dei compilatori portarono allo sviluppo dei primi linguaggi ad alto livello
 RISPOSTA: D
 
 DOMANDA: Negli anni '60 il linguaggio di riferimento per la descrizione degli algoritmi era __________. Tra le sue caratteristiche originali troviamo l’introduzione della dichiarazione del tipo delle variabili. Tuttavia, per lo sviluppo delle applicazioni scientifiche gli veniva preferito __________, e per quelle commerciali __________.
-A) il Fortran, il C, il Lisp  
-B) l'Algol, il Fortran, il Cobol  
-C) il Basic, il Fortran, il Pascal  
-D) il Lisp, il C, il Cobol  
+A) il Fortran, il C, il Lisp
+B) l'Algol, il Fortran, il Cobol
+C) il Basic, il Fortran, il Pascal
+D) il Lisp, il C, il Cobol
 RISPOSTA: B
 
 DOMANDA: Il nome di Robert Fano è legato al __________. Questo sistema non fu certo un successo, ma è grazie ad esso che sono nati il concetto moderno di __________, e poco dopo anche il sistema __________, per merito di __________.
@@ -170,406 +170,514 @@ D) OS/360, unix, file system, Ritchie e Thompson
 RISPOSTA: A
 
 DOMANDA: Molti processori moderni:
-A) data la velocità con cui riescono ad accedere alla RAM, non hanno bisogno di usare memorie cache.  
-B) possono eseguire un’istruzione prima di sapere se questa vada effettivamente eseguita.  
-C) sono detti multi-core perché implementano il multiple issue: l’esecuzione di più istruzioni in parallelo  
-D) usano istruzioni macchina complesse e a lunghezza variabile, e sono noti come architetture CISC.  
+A) data la velocità con cui riescono ad accedere alla RAM, non hanno bisogno di usare memorie cache.
+B) possono eseguire un’istruzione prima di sapere se questa vada effettivamente eseguita.
+C) sono detti multi-core perché implementano il multiple issue: l’esecuzione di più istruzioni in parallelo
+D) usano istruzioni macchina complesse e a lunghezza variabile, e sono noti come architetture CISC.
 RISPOSTA: B
 
 DOMANDA: Con l’acronimo CISC si indica:
-A) un modello di architettura alternativo alla "architettura von Neumann"  
-B) un tipo di processori molto potenti e costosi che a partire dagli anni ’90 rimpiazzarono i più semplici processori RISC  
-C) un modello architetturale diffuso negli anni ’90 e 2000 ora esteso alle CPU multi-core  
-D) un modello architetturale ormai sostituito dal più moderno modello RISC  
+A) un modello di architettura alternativo alla "architettura von Neumann"
+B) un tipo di processori molto potenti e costosi che a partire dagli anni ’90 rimpiazzarono i più semplici processori RISC
+C) un modello architetturale diffuso negli anni ’90 e 2000 ora esteso alle CPU multi-core
+D) un modello architetturale ormai sostituito dal più moderno modello RISC
 RISPOSTA: D
 
 DOMANDA: Ada Byron, contessa di Lovelace:
-A) fu assoldată da Charles Babbage per scrivere programmi per il suo Analytical Engine  
-B) tradusse e commentò l'articolo di Federico Menabrea sull'Analytical Engine  
-C) lavorò alla costruzione di quello che si può considerare il primo computer in senso moderno  
-D) lavorò con Charles Babbage e Federico Menabrea alla stesura del progetto dell'Analytical Engine  
+A) fu assoldată da Charles Babbage per scrivere programmi per il suo Analytical Engine
+B) tradusse e commentò l'articolo di Federico Menabrea sull'Analytical Engine
+C) lavorò alla costruzione di quello che si può considerare il primo computer in senso moderno
+D) lavorò con Charles Babbage e Federico Menabrea alla stesura del progetto dell'Analytical Engine
 RISPOSTA: B
 
 DOMANDA: Nei sistemi batch:
-A) l’addetto alla sala macchine poteva immettere nella memoria del computer il contenuto di pacchetti di schede perforate corrispondenti ad un gruppo di programmi da eseguire. Il resident monitor avrebbe poi gestito in maniera autonoma l’esecuzione di tutti i programmi, uno dopo l’altro.  
-B) il multitasking era garantito dalla presenza di opportune schede perforate di controllo  
-C) la figura dell’addetto alla sala macchine non era più necessaria, dato che i programmatori potevano far girare in maniera autonoma i loro programmi, grazie al “resident monitor”  
-D) le schede perforate furono soppiantate dai nastri magnetici  
+A) l’addetto alla sala macchine poteva immettere nella memoria del computer il contenuto di pacchetti di schede perforate corrispondenti ad un gruppo di programmi da eseguire. Il resident monitor avrebbe poi gestito in maniera autonoma l’esecuzione di tutti i programmi, uno dopo l’altro.
+B) il multitasking era garantito dalla presenza di opportune schede perforate di controllo
+C) la figura dell’addetto alla sala macchine non era più necessaria, dato che i programmatori potevano far girare in maniera autonoma i loro programmi, grazie al “resident monitor”
+D) le schede perforate furono soppiantate dai nastri magnetici
 RISPOSTA: A
 
 DOMANDA: La figura di Von Neumann è legata al progetto del computer __________, che usava tra l’altro un nuovo tipo di memoria, noto come __________. Il primo computer a programma memorizzato effettivamente costruito fu tuttavia il __________, per cui fu messo a punto un altro tipo di memoria, noto come __________.
-A) ENIAC, Magnetic drum memories, EDSAC, Mercury delay lines  
-B) EDVAC, Mercury delay lines, SSEM, Williams-Kilburn Tubes  
-C) Mark-I, Williams-Kilburn Tubes, EDVAC, Magnetic core memories  
-D) EDVAC, Magnetic core memories, SSEM, Mercury delay lines  
+A) ENIAC, Magnetic drum memories, EDSAC, Mercury delay lines
+B) EDVAC, Mercury delay lines, SSEM, Williams-Kilburn Tubes
+C) Mark-I, Williams-Kilburn Tubes, EDVAC, Magnetic core memories
+D) EDVAC, Magnetic core memories, SSEM, Mercury delay lines
 RISPOSTA: B
 
 DOMANDA: L'EDVAC:
-A) è stato il primo computer a “programma memorizzato” effettivamente costruito  
-B) è il computer a cui è legata la nascita del concetto di “Architettura von Neumann”  
-C) Fu progettato da John von Neumann, coi contributi di H. Goldstine, J. Mauchly e J. Eckert  
-D) si programmava riconfigurando switch e collegamenti elettrici  
+A) è stato il primo computer a “programma memorizzato” effettivamente costruito
+B) è il computer a cui è legata la nascita del concetto di “Architettura von Neumann”
+C) Fu progettato da John von Neumann, coi contributi di H. Goldstine, J. Mauchly e J. Eckert
+D) si programmava riconfigurando switch e collegamenti elettrici
 RISPOSTA: B
 
 DOMANDA: Tra gli eventi significativi della storia dei linguaggi di programmazione negli anni ’40 e ’50 troviamo:
-A) lo sviluppo del LISP e del BASIC  
-B) lo Short Code del BINAC/UNIVAC e la formulazione della Backus-Naur Form  
-C) la formulazione degli Initial Orders nell’EDSAC e il primo compilatore davvero implementato, l’AUTOCODE  
-D) lo sviluppo del linguaggio e del relativo compilatore "IT", e la formalizzazione del costrutto FOR da parte di Corrado Böhm  
+A) lo sviluppo del LISP e del BASIC
+B) lo Short Code del BINAC/UNIVAC e la formulazione della Backus-Naur Form
+C) la formulazione degli Initial Orders nell’EDSAC e il primo compilatore davvero implementato, l’AUTOCODE
+D) lo sviluppo del linguaggio e del relativo compilatore "IT", e la formalizzazione del costrutto FOR da parte di Corrado Böhm
 RISPOSTA: C
 
 DOMANDA: La Apple:
-A) commissionò alla Microsoft lo sviluppo del DOS usato come sistema operativo dei suoi primi modelli di computer  
-B) per tutti i suoi modelli di computer ha sempre usato un sistema operativo Unix-like, a un certo momento in poi dotandolo anche di una opportuna interfaccia grafica  
-C) usava come sistema operativo dei suoi primi modelli di computer un semplice DOS, e trasse ispirazione per l’idea di un sistema operativo con interfaccia grafica dai progetti della Xerox  
-D) Negli anni ’80 ha sempre avuto la fetta principale del mercato nel campo dei personal computer, grazie alle tastierine azionate meccanicamente che riducevano gli errori di digitazione  
+A) commissionò alla Microsoft lo sviluppo del DOS usato come sistema operativo dei suoi primi modelli di computer
+B) per tutti i suoi modelli di computer ha sempre usato un sistema operativo Unix-like, a un certo momento in poi dotandolo anche di una opportuna interfaccia grafica
+C) usava come sistema operativo dei suoi primi modelli di computer un semplice DOS, e trasse ispirazione per l’idea di un sistema operativo con interfaccia grafica dai progetti della Xerox
+D) Negli anni ’80 ha sempre avuto la fetta principale del mercato nel campo dei personal computer, grazie alle tastierine azionate meccanicamente che riducevano gli errori di digitazione
 RISPOSTA: C
 
 DOMANDA: Il primo linguaggio fondamentale nella storia dell'informatica è sicuramente __________, ed era un linguaggio di programmazione __________. Negli anni '60 rimase il linguaggio più usato per sviluppare applicazioni, anche se per la descrizione formale degli algoritmi ne veniva preferito un altro: __________. Inoltre, per lo sviluppo di applicazioni commerciali e amministrative gli veniva preferito __________.
-A) il Lisp, strutturato, il Pascal, il Basic  
-B) il Fortran, non strutturato, l'Algol, il Cobol  
-C) il Cobol, non strutturato, il Lisp, il Fortran  
-D) il C, strutturato, l'Algol, il Fortran  
+A) il Lisp, strutturato, il Pascal, il Basic
+B) il Fortran, non strutturato, l'Algol, il Cobol
+C) il Cobol, non strutturato, il Lisp, il Fortran
+D) il C, strutturato, l'Algol, il Fortran
 RISPOSTA: B
 
 DOMANDA: Tra i più importanti linguaggi sviluppati negli anni ’50 e ’60:
-A) il BASIC ebbe una diffusione ancora maggiore negli anni ’70 e ’80  
-B) il FORTRAN scomparve, sostituito dall’ALGOL  
-C) il PASCAL fu sostituito dall’ALGOL  
-D) il BASIC e il FORTRAN caddero in disuso grazie al teorema di Corrado Böhm e Giuseppe Jacopini sulla programmazione strutturata  
+A) il BASIC ebbe una diffusione ancora maggiore negli anni ’70 e ’80
+B) il FORTRAN scomparve, sostituito dall’ALGOL
+C) il PASCAL fu sostituito dall’ALGOL
+D) il BASIC e il FORTRAN caddero in disuso grazie al teorema di Corrado Böhm e Giuseppe Jacopini sulla programmazione strutturata
 RISPOSTA: A
 
 DOMANDA: Il linguaggio C:
-A) è efficiente ed estremamente portabile grazie all’uso del codice oggetto virtuale, il P-code  
-B) è affascinante e sintetico, ma con un sistema di tipi rigido per limitare i più possibili errori di programmazione  
-C) fu sviluppato nel contesto del progetto del Multics  
-D) è efficiente, sintetico, modulare, ed estremamente portabile  
+A) è efficiente ed estremamente portabile grazie all’uso del codice oggetto virtuale, il P-code
+B) è affascinante e sintetico, ma con un sistema di tipi rigido per limitare i più possibili errori di programmazione
+C) fu sviluppato nel contesto del progetto del Multics
+D) è efficiente, sintetico, modulare, ed estremamente portabile
 RISPOSTA: D
 
 DOMANDA: Negli anni ’80:
-A) la comparsa del linguaggio ADA causò il declino del lato desktop del Pascal  
-B) il Cobol venne tolto da tutte le scuole di accesso, su ordine del DoD  
-C) si iniziò a dubitare della definizione affermativa del linguaggio C, e lo sviluppo delle sue versioni object oriented, come il C++ e l’Object-C  
-D) vennero sviluppati i primi linguaggi object oriented, che aprirono poi la strada negli anni ’90 a Java  
+A) la comparsa del linguaggio ADA causò il declino del lato desktop del Pascal
+B) il Cobol venne tolto da tutte le scuole di accesso, su ordine del DoD
+C) si iniziò a dubitare della definizione affermativa del linguaggio C, e lo sviluppo delle sue versioni object oriented, come il C++ e l’Object-C
+D) vennero sviluppati i primi linguaggi object oriented, che aprirono poi la strada negli anni ’90 a Java
 RISPOSTA: C
 
 DOMANDA: Nella storia dell'informatica è considerata importante la disponibilità di sistemi operativi “free” come Unix e Linux, rispetto a sistemi operativi “proprietari” come Windows e OSX perché:
-A) possono essere installati a costi molto contenuti  
-B) possono essere studiati e modificati per renderne disponibili versioni migliori  
-C) non intaccano il mercato dei sistemi proprietari  
-D) possono essere installati su macchine con configurazioni hardware diverse  
+A) possono essere installati a costi molto contenuti
+B) possono essere studiati e modificati per renderne disponibili versioni migliori
+C) non intaccano il mercato dei sistemi proprietari
+D) possono essere installati su macchine con configurazioni hardware diverse
 RISPOSTA: B
 
 DOMANDA: Diversi dispositivi elettronici sono stati usati per realizzare i circuiti logici necessari a costruire un processore. In ordine temporale troviamo prima __________, e poi __________. I primi erano però __________ se comparati ai secondi, e inoltre questi ultimi erano __________.
-A) transistor termoelettrici, tubi a vuoto, più potenti ma delicati, difficili da miniaturizzare  
-B) transistor, relè meccanici, lenti e fragili, difficili da miniaturizzare  
-C) tubi a vuoto, relè meccanici, più piccoli, più potenti  
-D) tubi a vuoto, transistor, lenti e fragili, più piccoli e consumavano meno corrente  
+A) transistor termoelettrici, tubi a vuoto, più potenti ma delicati, difficili da miniaturizzare
+B) transistor, relè meccanici, lenti e fragili, difficili da miniaturizzare
+C) tubi a vuoto, relè meccanici, più piccoli, più potenti
+D) tubi a vuoto, transistor, lenti e fragili, più piccoli e consumavano meno corrente
 RISPOSTA: D
 
 DOMANDA: L’Analytical Engine:
-A) fu descritto per la prima volta in un articolo a firma di Charles Babbage e Ada Lovelace  
-B) l’idea era di Charles Babbage, migliorata con i contributi di Ada Lovelace, avrebbe dovuto essere programmato a schede perforate  
-C) fu effettivamente usato per la prima volta da Ada Lovelace  
-D) fu migliorato grazie alle idee di Ada Lovelace e di Luigi Federico Menabrea  
+A) fu descritto per la prima volta in un articolo a firma di Charles Babbage e Ada Lovelace
+B) l’idea era di Charles Babbage, migliorata con i contributi di Ada Lovelace, avrebbe dovuto essere programmato a schede perforate
+C) fu effettivamente usato per la prima volta da Ada Lovelace
+D) fu migliorato grazie alle idee di Ada Lovelace e di Luigi Federico Menabrea
 RISPOSTA: B
 
 DOMANDA: I primi esempi di Personal Computer sono considerati:
-A) i CDC 6000 e CDC 6700 progettati da Seymour Cray lungo gli anni ’60  
-B) l’Olivetti Programma 101 (la Perottina) e i DATAPOINT 3300/2200  
-C) gli Intel 4004 e 8008, commercializzati a partire dall’inizio degli anni ’70  
-D) i PDP-1 della DEC e l’IBM 7030, commercializzati dall’inizio degli anni ’60  
+A) i CDC 6000 e CDC 6700 progettati da Seymour Cray lungo gli anni ’60
+B) l’Olivetti Programma 101 (la Perottina) e i DATAPOINT 3300/2200
+C) gli Intel 4004 e 8008, commercializzati a partire dall’inizio degli anni ’70
+D) i PDP-1 della DEC e l’IBM 7030, commercializzati dall’inizio degli anni ’60
 RISPOSTA: B
 
 DOMANDA: I processori moderni:
-A) sono basati sui modelli RISC: Reduced Instruction for Semiconductor Cores  
-B) sono basati sui modelli CISC: Cached Instructions for Set of Cores  
-C) non sono più così esclusi soltanto transistor per implementare le porte logiche di cui sono costituiti  
-D) sono la conseguenza della rivoluzione RISC degli anni ’80  
+A) sono basati sui modelli RISC: Reduced Instruction for Semiconductor Cores
+B) sono basati sui modelli CISC: Cached Instructions for Set of Cores
+C) non sono più così esclusi soltanto transistor per implementare le porte logiche di cui sono costituiti
+D) sono la conseguenza della rivoluzione RISC degli anni ’80
 RISPOSTA: D
 
 DOMANDA: Il sistema MULTICS:
-A) fu sviluppato sotto la guida di Fernando Corbatò  
-B) ebbe il merito di ispirare lo sviluppo del suo successore, l’OS/360  
-C) era pesante e sovradimensionato rispetto alle macchine degli anni ’60 su cui avrebbe dovuto girare  
-D) fu il primo sistema operativo ad essere scritto in C  
+A) fu sviluppato sotto la guida di Fernando Corbatò
+B) ebbe il merito di ispirare lo sviluppo del suo successore, l’OS/360
+C) era pesante e sovradimensionato rispetto alle macchine degli anni ’60 su cui avrebbe dovuto girare
+D) fu il primo sistema operativo ad essere scritto in C
 RISPOSTA: C
 
 DOMANDA: Tra le caratteristiche del Pascal troviamo:
-A) un sistema di tipi ricco ma rigido, in modo da facilitare la scrittura di programmi esenti da errori  
-B) l’assenza di puntatori, pur rimanendo però più efficiente nell’esecuzione dei programmi  
-C) il passaggio di parametri attraverso l’uso del call by value, del call by name e del call by reference  
-D) la facile adattabilità a piattaforme diverse attraverso un interprete bytecode  
+A) un sistema di tipi ricco ma rigido, in modo da facilitare la scrittura di programmi esenti da errori
+B) l’assenza di puntatori, pur rimanendo però più efficiente nell’esecuzione dei programmi
+C) il passaggio di parametri attraverso l’uso del call by value, del call by name e del call by reference
+D) la facile adattabilità a piattaforme diverse attraverso un interprete bytecode
 RISPOSTA: A
 
 DOMANDA: Lungo la storia dei linguaggi di programmazione, alcuni linguaggi sono stati capaci più di altri di diffondersi in modo capillare in diversi ambiti, anche non strettamente informatici: lavorativi, didattici, o per uso personale. Essi sono:
-A) il Simula 67, prima applicazione per la simulazione di processi e per modellare la concorrenza in ambiti non informatici; e lo Smalltalk, portato da Alan Kay addirittura come interfaccia del Dynabook, il precursore dei moderni tablet PC  
-B) il LISP, pensato apposta per applicazioni non informatiche: la manipolazione di espressioni simboliche e stringhe, e per decenni il linguaggio di riferimento nel campo dell’intelligenza artificiale; e il Prolog, che per la prima volta introdusse i vincoli di tipo logico, rendendosi ideale per applicazioni didattiche nei suoi aspetti descrittivi e scientifici  
-C) il COBOL, che fu pensato esplicitamente per applicazioni commerciali e rivolto a utenti che non erano programmatori esperti, tanto che negli anni '70 e '80 fu lo standard per i sistemi informativi non informatici. Il BASIC, pensato per studenti non informatici, fu anch’esso negli anni ’70 e ’80 fondamentale per la diffusione di una cultura informatica fra il grande pubblico  
-D) l’Algol, che grazie alla rigore, struttura e portabilità fu il linguaggio di riferimento, e il Pascal, che restituisce anche nelle fondamenta facile l’apprendimento dei concetti di tipo astratto ad una formazione ingegneristica; il Fortran, veloce ed estremamente portabile, che favoriva una proliferazione rapida dei linguaggi tipo “write and test”  
+A) il Simula 67, prima applicazione per la simulazione di processi e per modellare la concorrenza in ambiti non informatici; e lo Smalltalk, portato da Alan Kay addirittura come interfaccia del Dynabook, il precursore dei moderni tablet PC
+B) il LISP, pensato apposta per applicazioni non informatiche: la manipolazione di espressioni simboliche e stringhe, e per decenni il linguaggio di riferimento nel campo dell’intelligenza artificiale; e il Prolog, che per la prima volta introdusse i vincoli di tipo logico, rendendosi ideale per applicazioni didattiche nei suoi aspetti descrittivi e scientifici
+C) il COBOL, che fu pensato esplicitamente per applicazioni commerciali e rivolto a utenti che non erano programmatori esperti, tanto che negli anni '70 e '80 fu lo standard per i sistemi informativi non informatici. Il BASIC, pensato per studenti non informatici, fu anch’esso negli anni ’70 e ’80 fondamentale per la diffusione di una cultura informatica fra il grande pubblico
+D) l’Algol, che grazie alla rigore, struttura e portabilità fu il linguaggio di riferimento, e il Pascal, che restituisce anche nelle fondamenta facile l’apprendimento dei concetti di tipo astratto ad una formazione ingegneristica; il Fortran, veloce ed estremamente portabile, che favoriva una proliferazione rapida dei linguaggi tipo “write and test”
 RISPOSTA: C
 
 DOMANDA: Tra i diversi tipi di memoria in uso negli anni ’50:
-A) gli hard disk non comparivano, in quanto si cominciò a farne uso solo dalla metà degli anni ’60  
-B) Le Magnetic Core Memory, benché permanenti, erano usate principalmente come memoria primaria  
-C) Le memorie a tamburo rientrano, in quanto antenati degli hard disk, costituivano la memoria secondaria  
-D) Troviamo facilmente i flip flop, la cui costruzione fu possibile grazie all’invenzione del transistor  
+A) gli hard disk non comparivano, in quanto si cominciò a farne uso solo dalla metà degli anni ’60
+B) Le Magnetic Core Memory, benché permanenti, erano usate principalmente come memoria primaria
+C) Le memorie a tamburo rientrano, in quanto antenati degli hard disk, costituivano la memoria secondaria
+D) Troviamo facilmente i flip flop, la cui costruzione fu possibile grazie all’invenzione del transistor
 RISPOSTA: B
 
 DOMANDA: L’ALGOL:
-A) Grazie all’assenza di un sistema di tipi primitiva permetteva una prototipizzazione veloce del problema  
-B) Derivò i concetti di call by value e call by name da LISP e FORTRAN  
-C) Negli anni ’2000 rivaleggiò col COBOL come linguaggio più diffuso e usato in assoluto nelle applicazioni commerciali  
-D) Fu definito da Tony Hoare “così avanti nei tempi da essere migliore anche della maggior parte dei suoi successori”  
+A) Grazie all’assenza di un sistema di tipi primitiva permetteva una prototipizzazione veloce del problema
+B) Derivò i concetti di call by value e call by name da LISP e FORTRAN
+C) Negli anni ’2000 rivaleggiò col COBOL come linguaggio più diffuso e usato in assoluto nelle applicazioni commerciali
+D) Fu definito da Tony Hoare “così avanti nei tempi da essere migliore anche della maggior parte dei suoi successori”
 RISPOSTA: D
 
 DOMANDA: Tra gli eventi importanti per la storia delle architetture negli anni ’60 ricordiamo:
-A) l’invenzione del mouse; l’invenzione della cache; lo sviluppo della Olivetti Programma 101 (la “Perottina”), che molti considerano il primo personal computer della storia  
-B) il primo modello di transistor; i CDC 6600 di Seymour Cray; lo sviluppo della Olivetti Programma 101 (la “Perottina”), che molti considerano i primi personal computer della storia  
-C) la commercializzazione dei computer della serie IBM/360; la nascita dei primi microprocessori integrati, i 4004 e 8008; i CDC 6600 di Seymour Cray  
-D) la commercializzazione dei computer della serie IBM/360; la nascita dei primi microprocessori integrati, i 4004 e 8008  
+A) l’invenzione del mouse; l’invenzione della cache; lo sviluppo della Olivetti Programma 101 (la “Perottina”), che molti considerano il primo personal computer della storia
+B) il primo modello di transistor; i CDC 6600 di Seymour Cray; lo sviluppo della Olivetti Programma 101 (la “Perottina”), che molti considerano i primi personal computer della storia
+C) la commercializzazione dei computer della serie IBM/360; la nascita dei primi microprocessori integrati, i 4004 e 8008; i CDC 6600 di Seymour Cray
+D) la commercializzazione dei computer della serie IBM/360; la nascita dei primi microprocessori integrati, i 4004 e 8008
 RISPOSTA: A
 
 DOMANDA: Nei sistemi batch:
-A) le schede perforate potevano contenere: il codice dei programmi, i dati di input dei programmi, e i comandi di controllo da impartire al resident monitor  
-B) i nastri magnetici furono soppiantati dagli hard disk  
-C) i programmatori potevano monitorare in diretta l’esecuzione dei loro programmi grazie proprio al fatto che col computer era installato il “resident monitor”  
-D) l’adozione degli hard disk permise di implementare una forma più efficiente di multitasking  
+A) le schede perforate potevano contenere: il codice dei programmi, i dati di input dei programmi, e i comandi di controllo da impartire al resident monitor
+B) i nastri magnetici furono soppiantati dagli hard disk
+C) i programmatori potevano monitorare in diretta l’esecuzione dei loro programmi grazie proprio al fatto che col computer era installato il “resident monitor”
+D) l’adozione degli hard disk permise di implementare una forma più efficiente di multitasking
 RISPOSTA: A
 
 DOMANDA: Il linguaggio di programmazione BASIC:
-A) era spesso usato al posto dell’ALGOL perché più efficiente e facile da usare  
-B) permetteva la scrittura di programmi strutturati eleganti e facili da comprendere, ma inefficiente  
-C) fu fondamentale per la diffusione di una cultura informatica tra il grande pubblico negli anni ’70 e ’80  
-D) fu il linguaggio che ispirò lo sviluppo del Pascal  
+A) era spesso usato al posto dell’ALGOL perché più efficiente e facile da usare
+B) permetteva la scrittura di programmi strutturati eleganti e facili da comprendere, ma inefficiente
+C) fu fondamentale per la diffusione di una cultura informatica tra il grande pubblico negli anni ’70 e ’80
+D) fu il linguaggio che ispirò lo sviluppo del Pascal
 RISPOSTA: C
 
 DOMANDA: Le prime architetture RISC (Restricted Instruction Set Computer):
-A) sono ormai state sostituite dai modelli per moderni processori multi-core CISC  
-B) a causa del limitato set di istruzioni non permettevano la scrittura di qualsiasi programma  
-C) usavano istruzioni di lunghezza uguale  
-D) usavano poche e semplici istruzioni macchina. Dunque erano facili da costruire, ma lente  
+A) sono ormai state sostituite dai modelli per moderni processori multi-core CISC
+B) a causa del limitato set di istruzioni non permettevano la scrittura di qualsiasi programma
+C) usavano istruzioni di lunghezza uguale
+D) usavano poche e semplici istruzioni macchina. Dunque erano facili da costruire, ma lente
 RISPOSTA: C
 
 DOMANDA: L’ENIAC:
-A) è il computer da cui deriva l’espressione “architettura von Neumann”  
-B) fu progettato da H. Goldstine, J. Mauchly, J. Eckert e J. von Neumann  
-C) fu impiegato principalmente per il calcolo delle traiettorie balistiche durante la seconda guerra mondiale  
-D) fu progettato con lo scopo iniziale di calcolare traiettorie balistiche, ma entrò in funzione solo alla fine della guerra  
+A) è il computer da cui deriva l’espressione “architettura von Neumann”
+B) fu progettato da H. Goldstine, J. Mauchly, J. Eckert e J. von Neumann
+C) fu impiegato principalmente per il calcolo delle traiettorie balistiche durante la seconda guerra mondiale
+D) fu progettato con lo scopo iniziale di calcolare traiettorie balistiche, ma entrò in funzione solo alla fine della guerra
 RISPOSTA: D
 
 DOMANDA: Il sistema operativo Linux:
-A) è il sistema operativo più utilizzato nei personal computer  
-B) è una variante dello Unix sviluppata per girare su personal computer  
-C) per scelta esplicita di Linus Torvalds, non può essere fatto pagare  
-D) si è diffuso dagli anni ’90 grazie al progetto GNU di Richard Stallman  
+A) è il sistema operativo più utilizzato nei personal computer
+B) è una variante dello Unix sviluppata per girare su personal computer
+C) per scelta esplicita di Linus Torvalds, non può essere fatto pagare
+D) si è diffuso dagli anni ’90 grazie al progetto GNU di Richard Stallman
 RISPOSTA: B
 
 DOMANDA: Il sistema Unix:
-A) fu sviluppato inizialmente in C  
-B) ha introdotto molte idee innovative e originali, come le fork e la shell  
-C) è il capostipite di buona parte dei sistemi operativi usati oggi, anche nei dispositivi mobile  
-D) nacque come naturale evoluzione, poi sofisticata e completa, dal sistema MULTICS  
+A) fu sviluppato inizialmente in C
+B) ha introdotto molte idee innovative e originali, come le fork e la shell
+C) è il capostipite di buona parte dei sistemi operativi usati oggi, anche nei dispositivi mobile
+D) nacque come naturale evoluzione, poi sofisticata e completa, dal sistema MULTICS
 RISPOSTA: C
 
 DOMANDA: Gary Kildall è stato l'ideatore del __________, che poteva essere trasportato facilmente su qualsiasi piattaforma riscrivendone solo la parte nota come __________. Tuttavia la __________ non riuscì a stipulare un contratto con lui per usare il suo sistema e dovette rivolgersi a __________.
-A) DOS, UEFI, Apple, Steve Jobs  
-B) CP/M, BIOS, IBM, Bill Gates  
-C) CP/M, BIOS, Intel, Apple  
-D) CP/M, BIOS, IBM, Steve Jobs  
+A) DOS, UEFI, Apple, Steve Jobs
+B) CP/M, BIOS, IBM, Bill Gates
+C) CP/M, BIOS, Intel, Apple
+D) CP/M, BIOS, IBM, Steve Jobs
 RISPOSTA: B
 
 DOMANDA: Il linguaggio C:
-A) è apprezzato perché favorisce la scrittura di programmi facili da comprendere e molto portabili  
-B) fu usato per implementare la prima versione del loro sistema da Ritchie e Thompson  
-C) è ormai poco usato, sostituito dai linguaggi object oriented e dai linguaggi di scripting  
-D) è un linguaggio in cui è facile fare errori di programmazione, a causa di un sistema di tipi poco rigido  
+A) è apprezzato perché favorisce la scrittura di programmi facili da comprendere e molto portabili
+B) fu usato per implementare la prima versione del loro sistema da Ritchie e Thompson
+C) è ormai poco usato, sostituito dai linguaggi object oriented e dai linguaggi di scripting
+D) è un linguaggio in cui è facile fare errori di programmazione, a causa di un sistema di tipi poco rigido
 RISPOSTA: D
 
 DOMANDA: Negli anni ’50:
-A) furono sviluppati, quasi in parallelo, il COBOL, il LISP, e il BASIC  
-B) Grace Murray Hopper fornisce contributi fondamentali allo sviluppo dei primi linguaggi ad alto livello e dei loro compilatori  
-C) Vengono messi a punto i fondamenti della programmazione strutturata, grazie soprattutto al famoso teorema di Corrado Böhm e Giuseppe Jacopini  
-D) viene inventato il costrutto FOR, e vengono messi a punto i primi parsificatori in grado di parsificare qualsiasi grammatica context-free  
+A) furono sviluppati, quasi in parallelo, il COBOL, il LISP, e il BASIC
+B) Grace Murray Hopper fornisce contributi fondamentali allo sviluppo dei primi linguaggi ad alto livello e dei loro compilatori
+C) Vengono messi a punto i fondamenti della programmazione strutturata, grazie soprattutto al famoso teorema di Corrado Böhm e Giuseppe Jacopini
+D) viene inventato il costrutto FOR, e vengono messi a punto i primi parsificatori in grado di parsificare qualsiasi grammatica context-free
 RISPOSTA: B
 
 DOMANDA: Nella storia dei Personal Computer:
-A) le interfacce grafiche furono ipotizzate per la prima volta da Douglas Engelbart, e implementate per la prima volta nel sistema Alto di Gary Kildall  
-B) le interfacce grafiche furono utilizzate per la prima volta dalla Apple nel sistema Lisa, con un tale successo commerciale da spingere la Apple a immettere poi sul mercato l’ancora più famoso Macintosh 128k  
-C) le interfacce grafiche hanno costituito un miglioramento fondamentale in tutti i sistemi operativi in cui sono state implementate per la prima volta, dal sistema Alto al Macintosh 128k a Windows95  
-D) le interfacce grafiche furono introdotte per la prima volta in un sistema operativo della Microsoft con il sistema Windows 95, che ebbe un enorme successo commerciale grazie al fatto che fu scelto dalla IBM per entrare nel mercato dei personal computer  
+A) le interfacce grafiche furono ipotizzate per la prima volta da Douglas Engelbart, e implementate per la prima volta nel sistema Alto di Gary Kildall
+B) le interfacce grafiche furono utilizzate per la prima volta dalla Apple nel sistema Lisa, con un tale successo commerciale da spingere la Apple a immettere poi sul mercato l’ancora più famoso Macintosh 128k
+C) le interfacce grafiche hanno costituito un miglioramento fondamentale in tutti i sistemi operativi in cui sono state implementate per la prima volta, dal sistema Alto al Macintosh 128k a Windows95
+D) le interfacce grafiche furono introdotte per la prima volta in un sistema operativo della Microsoft con il sistema Windows 95, che ebbe un enorme successo commerciale grazie al fatto che fu scelto dalla IBM per entrare nel mercato dei personal computer
 RISPOSTA: C
 
 DOMANDA: Nella storia dei Sistemi Operativi:
-A) il Linux è ormai diventato un sistema operativo commerciale e costoso, le cui principali varianti sono Ubuntu, Fedora e RedHat  
-B) il Linux fu concepito da Linus Torvalds come evoluzione del MINIX, e implementato da Richard Stallman e la supervisione di Andrew Tanenbaum  
-C) il Linux fu sviluppato da Linus Torvalds con l’intento iniziale di avere una sorta di sistema operativo Unix che potesse essere usato con il suo personal computer  
-D) il Linux, nato quasi da una passione hobbistica di Linus Torvalds, è diventato in pochi anni il sistema operativo di riferimento per personal computer  
+A) il Linux è ormai diventato un sistema operativo commerciale e costoso, le cui principali varianti sono Ubuntu, Fedora e RedHat
+B) il Linux fu concepito da Linus Torvalds come evoluzione del MINIX, e implementato da Richard Stallman e la supervisione di Andrew Tanenbaum
+C) il Linux fu sviluppato da Linus Torvalds con l’intento iniziale di avere una sorta di sistema operativo Unix che potesse essere usato con il suo personal computer
+D) il Linux, nato quasi da una passione hobbistica di Linus Torvalds, è diventato in pochi anni il sistema operativo di riferimento per personal computer
 RISPOSTA: C
 
 DOMANDA: All'inizio degli anni '80 ha luogo la cosiddetta Rivoluzione __________. Il vecchio modello architetturale, a posteriori denominato architetture __________, viene sostituito da architetture dotate di un instruction set fatto di istruzioni di dimensione __________ e __________.
-A) RISC, MISC, variabile, semplici  
-B) RISC, CISC, costante, semplici  
-C) RISC, CISC, variabile, illimitata  
-D) MIPS, CISC, costante, variabile  
+A) RISC, MISC, variabile, semplici
+B) RISC, CISC, costante, semplici
+C) RISC, CISC, variabile, illimitata
+D) MIPS, CISC, costante, variabile
 RISPOSTA: B
 
-DOMANDA: Nella storia dei Sistemi Operativi:  
-A) i sistemi timesharing sono stati ideati da John McCarthy tra la fine degli anni '50 e l'inizio degli anni '60  
-B) Edger Dijkstra sviluppò il concetto di sistema multiprogrammato quasi contemporaneamente a quello di sistema timesharing  
-C) Linus Torvalds si dedicò allo sviluppo del Linux con l'obiettivo di scavalcare il monopolio ormai instaurato dai sistemi Unix  
-D) Gary Kildall collaborò allo sviluppo dell'MS-DOS grazie al contratto firmato con la IBM, che voleva usarlo nei suoi PC  
+DOMANDA: Nella storia dei Sistemi Operativi:
+A) i sistemi timesharing sono stati ideati da John McCarthy tra la fine degli anni '50 e l'inizio degli anni '60
+B) Edger Dijkstra sviluppò il concetto di sistema multiprogrammato quasi contemporaneamente a quello di sistema timesharing
+C) Linus Torvalds si dedicò allo sviluppo del Linux con l'obiettivo di scavalcare il monopolio ormai instaurato dai sistemi Unix
+D) Gary Kildall collaborò allo sviluppo dell'MS-DOS grazie al contratto firmato con la IBM, che voleva usarlo nei suoi PC
 RISPOSTA: A
 
-DOMANDA: Nella storia dei sistemi operativi:  
-A) L'esperienza sviluppata con sistemi come Unix, Multics o OS/360 ha permesso di capire che la funzione fondamentale che doveva svolgere un sistema operativo per personal computer era quella di implementare un file system grafico sull'hard disk di cui erano dotati  
-B) L'esperienza sviluppata con sistemi come Unix, Multics o OS/360 ha permesso di capire come il timesharing, o anche solo il multitasking, potessero essere implementati nei sistemi operativi dei primi personal computer, che incominciavano a venire prodotti a partire dagli anni '70  
-C) sistemi come Unix, Multics o OS/360 non hanno influenzato in alcun modo lo sviluppo dei sistemi operativi per i primi personal computer, che erano macchine dotate di pochissime risorse hardware, su cui non poteva certo girare un sistema multitasking, e tanto meno timesharing  
-D) L'esperienza sviluppata con sistemi come Unix, Multics o OS/360 ispirò Gary Kildall nell'invenzione del BIOS  
+DOMANDA: Nella storia dei sistemi operativi:
+A) L'esperienza sviluppata con sistemi come Unix, Multics o OS/360 ha permesso di capire che la funzione fondamentale che doveva svolgere un sistema operativo per personal computer era quella di implementare un file system grafico sull'hard disk di cui erano dotati
+B) L'esperienza sviluppata con sistemi come Unix, Multics o OS/360 ha permesso di capire come il timesharing, o anche solo il multitasking, potessero essere implementati nei sistemi operativi dei primi personal computer, che incominciavano a venire prodotti a partire dagli anni '70
+C) sistemi come Unix, Multics o OS/360 non hanno influenzato in alcun modo lo sviluppo dei sistemi operativi per i primi personal computer, che erano macchine dotate di pochissime risorse hardware, su cui non poteva certo girare un sistema multitasking, e tanto meno timesharing
+D) L'esperienza sviluppata con sistemi come Unix, Multics o OS/360 ispirò Gary Kildall nell'invenzione del BIOS
 RISPOSTA: C
 
-DOMANDA: John von Neumann:  
-A) ha dato il nome ad un modello architetturale da lui stesso inventato negli anni '80  
-B) ha dato il nome ad un modello architetturale in cui era possibile pilotare il computer mediante telescriventi o terminali video  
-C) ha dato il nome ad un modello architetturale per computer in cui dati e programmi condividono la memoria principale del computer  
-D) ha dato il nome ad un modello architetturale ormai soppiantato dalle più moderne architetture basate su un instruction set fatto di istruzioni semplici e a lunghezza regolare  
+DOMANDA: John von Neumann:
+A) ha dato il nome ad un modello architetturale da lui stesso inventato negli anni '80
+B) ha dato il nome ad un modello architetturale in cui era possibile pilotare il computer mediante telescriventi o terminali video
+C) ha dato il nome ad un modello architetturale per computer in cui dati e programmi condividono la memoria principale del computer
+D) ha dato il nome ad un modello architetturale ormai soppiantato dalle più moderne architetture basate su un instruction set fatto di istruzioni semplici e a lunghezza regolare
 RISPOSTA: C
 
-DOMANDA: Nella storia dei linguaggi di programmazione:  
-A) Il Prolog fu alla base di un programma di ricerca giapponese per costruire supercomputer pesantemente basati sul parallelismo, intrinseco nel Prolog stesso, attraverso l’uso di processori RISC multi-core  
-B) Il Prolog fu alla base di un costoso progetto di ricerca lanciato dal governo giapponese, che però si rivelò un fallimento a causa dell’avvento del nuovo modello architetturale CISC, molto più adatto alla diffusione delle applicazioni  
-C) Il Prolog fu alla base di un progetto che aveva come obiettivo lo sviluppo di supercomputer che dovevano usarlo come linguaggio per eseguire calcoli e deduzioni logiche sfruttandone pesantemente il parallelismo intrinseco  
-D) Il Prolog fu sviluppato all’interno del progetto “5th Generation Computer Systems” finanziato dal governo giapponese per sviluppare supercomputer pesantemente orientati al parallelismo e all’inferenza logica  
+DOMANDA: Nella storia dei linguaggi di programmazione:
+A) Il Prolog fu alla base di un programma di ricerca giapponese per costruire supercomputer pesantemente basati sul parallelismo, intrinseco nel Prolog stesso, attraverso l’uso di processori RISC multi-core
+B) Il Prolog fu alla base di un costoso progetto di ricerca lanciato dal governo giapponese, che però si rivelò un fallimento a causa dell’avvento del nuovo modello architetturale CISC, molto più adatto alla diffusione delle applicazioni
+C) Il Prolog fu alla base di un progetto che aveva come obiettivo lo sviluppo di supercomputer che dovevano usarlo come linguaggio per eseguire calcoli e deduzioni logiche sfruttandone pesantemente il parallelismo intrinseco
+D) Il Prolog fu sviluppato all’interno del progetto “5th Generation Computer Systems” finanziato dal governo giapponese per sviluppare supercomputer pesantemente orientati al parallelismo e all’inferenza logica
 RISPOSTA: C
 
-DOMANDA: Nella storia dei linguaggi di programmazione:  
-A) Il BASIC fu pensato per studenti non informatici e fu fondamentale per la diffusione di una cultura informatica tra il grande pubblico  
-B) Il COBOL, pur pensato esplicitamente per applicazioni commerciali e rivolto a utenti che non erano programmatori esperti, per un periodo fu il linguaggio più diffuso  
-C) Il Prolog era particolarmente adatto all’uso negli ambienti scientifici, dove è importante modellare il ragionamento e l’inferenza nel modo più intuitivo possibile  
-D) Il LISP fu pensato apposta per applicazioni non sequenziali, e quindi era molto diffuso in ambito commerciale e tra gli hobbisti dell’informatica  
+DOMANDA: Nella storia dei linguaggi di programmazione:
+A) Il BASIC fu pensato per studenti non informatici e fu fondamentale per la diffusione di una cultura informatica tra il grande pubblico
+B) Il COBOL, pur pensato esplicitamente per applicazioni commerciali e rivolto a utenti che non erano programmatori esperti, per un periodo fu il linguaggio più diffuso
+C) Il Prolog era particolarmente adatto all’uso negli ambienti scientifici, dove è importante modellare il ragionamento e l’inferenza nel modo più intuitivo possibile
+D) Il LISP fu pensato apposta per applicazioni non sequenziali, e quindi era molto diffuso in ambito commerciale e tra gli hobbisti dell’informatica
 RISPOSTA: A
 
 
-DOMANDA: Il linguaggio di programmazione BASIC:  
-A) dopo un successo iniziale ebbe una rapida dismissione, declinò poi a partire dal decennio successivo  
-B) Corrado Böhm e Giuseppe Jacopini dimostrarono che non permetteva la scrittura di programmi strutturati  
-C) è incoraggiava uno stile di programmazione confuso e potenzialmente soggetto ad errori  
-D) fu definito da Dijkstra "più indegno nei metodi anche della maggior parte dei suoi predecessori"  
+DOMANDA: Il linguaggio di programmazione BASIC:
+A) dopo un successo iniziale ebbe una rapida dismissione, declinò poi a partire dal decennio successivo
+B) Corrado Böhm e Giuseppe Jacopini dimostrarono che non permetteva la scrittura di programmi strutturati
+C) è incoraggiava uno stile di programmazione confuso e potenzialmente soggetto ad errori
+D) fu definito da Dijkstra "più indegno nei metodi anche della maggior parte dei suoi predecessori"
 RISPOSTA: C
 
-DOMANDA: Il transistor:  
-A) ha costituito un avanzamento tecnologico fondamentale nell’informatica e nell’industria dei computer rispetto ai tubi a vuoto  
-B) fu il punto di svolta che consentì la costruzione delle prime CPU miniaturizzate su una singola fetta di silicio  
-C) non modificò la tecnologia di costruzione delle schede interne, in particolare delle magnetic core memory  
-D) permise di costruire computer più economici, più compatti e più facili da usare, ma anche più soggetti a guasti e malfunzionamenti  
+DOMANDA: Il transistor:
+A) ha costituito un avanzamento tecnologico fondamentale nell’informatica e nell’industria dei computer rispetto ai tubi a vuoto
+B) fu il punto di svolta che consentì la costruzione delle prime CPU miniaturizzate su una singola fetta di silicio
+C) non modificò la tecnologia di costruzione delle schede interne, in particolare delle magnetic core memory
+D) permise di costruire computer più economici, più compatti e più facili da usare, ma anche più soggetti a guasti e malfunzionamenti
 RISPOSTA: A
 
-DOMANDA: L'ENIAC:  
-A) non fu mai effettivamente usato per il calcolo delle traiettorie balistiche durante la seconda guerra mondiale, perché si preferì usare il suo successore, l’EDVAC  
-B) fu progettato da John von Neumann, ma importanti contributi arrivarono anche da Herman Goldstine e John Mauchly  
-C) avrebbe dovuto contribuire a migliorare l’efficacia dei cannoni usati durante la seconda guerra mondiale  
-D) fu sviluppato anche grazie agli studi di John von Neumann, che scrisse in proposito anche un famigerato report  
+DOMANDA: L'ENIAC:
+A) non fu mai effettivamente usato per il calcolo delle traiettorie balistiche durante la seconda guerra mondiale, perché si preferì usare il suo successore, l’EDVAC
+B) fu progettato da John von Neumann, ma importanti contributi arrivarono anche da Herman Goldstine e John Mauchly
+C) avrebbe dovuto contribuire a migliorare l’efficacia dei cannoni usati durante la seconda guerra mondiale
+D) fu sviluppato anche grazie agli studi di John von Neumann, che scrisse in proposito anche un famigerato report
 RISPOSTA: C
 
-DOMANDA: Tra gli anni ’50 e gli anni ’60:  
-A) il FORTRAN competeva con Basic e Simula67 come linguaggi più diffusi  
-B) il FORTRAN fu il linguaggio più diffuso insieme al LISP  
-C) il FORTRAN fu usato principalmente per la descrizione degli algoritmi, ma non per la loro implementazione  
-D) il FORTRAN fu tra i linguaggi più diffusi e usati  
+DOMANDA: Tra gli anni ’50 e gli anni ’60:
+A) il FORTRAN competeva con Basic e Simula67 come linguaggi più diffusi
+B) il FORTRAN fu il linguaggio più diffuso insieme al LISP
+C) il FORTRAN fu usato principalmente per la descrizione degli algoritmi, ma non per la loro implementazione
+D) il FORTRAN fu tra i linguaggi più diffusi e usati
 RISPOSTA: D
 
-DOMANDA: Negli anni ’80:  
-A) si afferma il C a causa dell’inizio del lento declino del Pascal  
-B) si abbozza la definitiva affermazione del linguaggio C, dell’ADA e del Pascal  
-C) il linguaggio C incontra il suo declino, sostituito dalle sue versioni object oriented: C++ e Object-C  
-D) il suo nome riemerge: il linguaggio Java propone nell’epico della diffusione del Pascal e di ADA  
+DOMANDA: Negli anni ’80:
+A) si afferma il C a causa dell’inizio del lento declino del Pascal
+B) si abbozza la definitiva affermazione del linguaggio C, dell’ADA e del Pascal
+C) il linguaggio C incontra il suo declino, sostituito dalle sue versioni object oriented: C++ e Object-C
+D) il suo nome riemerge: il linguaggio Java propone nell’epico della diffusione del Pascal e di ADA
 RISPOSTA: A
 
-DOMANDA: In ordine cronologico, tra i linguaggi in cui incominciano a comparire le prime idee “object oriented” troviamo:  
-A) Simula67, seguito da Smalltalk, che fu progettato da Alan Kay. Il linguaggio Object Oriented di maggior successo è poi certamente Java.  
-B) Java, seguito da Object-C e Alan Kay.  
-C) Smalltalk, seguito da Simula67, che fu progettato da Alan Kay. Il linguaggio Object Oriented più usato è C++.  
-D) il linguaggio C, seguito da Alan Kay e Simula67. Il linguaggio più moderno è Smalltalk.  
+DOMANDA: In ordine cronologico, tra i linguaggi in cui incominciano a comparire le prime idee “object oriented” troviamo:
+A) Simula67, seguito da Smalltalk, che fu progettato da Alan Kay. Il linguaggio Object Oriented di maggior successo è poi certamente Java.
+B) Java, seguito da Object-C e Alan Kay.
+C) Smalltalk, seguito da Simula67, che fu progettato da Alan Kay. Il linguaggio Object Oriented più usato è C++.
+D) il linguaggio C, seguito da Alan Kay e Simula67. Il linguaggio più moderno è Smalltalk.
 RISPOSTA: A
 
-DOMANDA: Nella storia dei sistemi operativi:  
-A) il MULTICS permise per la prima volta di implementare il concetto di file system in senso moderno  
-B) il MULTICS fu sviluppato in un linguaggio ad alto livello, il C, che fu la causa principale della sua inefficienza  
-C) il MULTICS fu sviluppato, sotto la guida di Robert Fano, a partire dall’esperienza del CTSS  
-D) il MULTICS fu negli anni ’80 il più diffuso sistema operativo insieme all’OS/360, e il suo uso cominciò a declinare solo con la comparsa dello UNIX  
+DOMANDA: Nella storia dei sistemi operativi:
+A) il MULTICS permise per la prima volta di implementare il concetto di file system in senso moderno
+B) il MULTICS fu sviluppato in un linguaggio ad alto livello, il C, che fu la causa principale della sua inefficienza
+C) il MULTICS fu sviluppato, sotto la guida di Robert Fano, a partire dall’esperienza del CTSS
+D) il MULTICS fu negli anni ’80 il più diffuso sistema operativo insieme all’OS/360, e il suo uso cominciò a declinare solo con la comparsa dello UNIX
 RISPOSTA: C
 
-DOMANDA: Nella storia dei Sistemi Operativi:  
-A) il multitasking rese i nastri magnetici molto più veloci, tanto da poter competere con i dispositivi di memorizzazione ad accesso diretto  
-B) il multitasking fu la grande innovazione proposta per la prima volta da Fernando Corbató e implementata nel CTSS  
-C) il multitasking fu implementato per la prima volta nel sistema Atlas, sotto la guida di Robert Fano  
-D) il multitasking fu implementato tra l’altro nei sistemi operativi Atlas, CTSS, MULTICS e OS/360  
+DOMANDA: Nella storia dei Sistemi Operativi:
+A) il multitasking rese i nastri magnetici molto più veloci, tanto da poter competere con i dispositivi di memorizzazione ad accesso diretto
+B) il multitasking fu la grande innovazione proposta per la prima volta da Fernando Corbató e implementata nel CTSS
+C) il multitasking fu implementato per la prima volta nel sistema Atlas, sotto la guida di Robert Fano
+D) il multitasking fu implementato tra l’altro nei sistemi operativi Atlas, CTSS, MULTICS e OS/360
 RISPOSTA: D
 
-DOMANDA: Nella storia delle architetture alcune macchine sono state considerate antenate dei PC. Tra queste macchine troviamo:  
-A) I computer concepiti da Seymour Cray lungo gli anni ’60: i CDC 8600 e CDC 6700  
-B) il PDP-1 della DEC e l’IBM 7030, i primi computer economici degli anni ’60  
-C) i primi prodotti commerciali della Intel, immessi sul mercato a partire dall’inizio degli anni ’70  
-D) il DATAPOINT 2200 e, prima ancora, l’Olivetti Programma 101  
+DOMANDA: Nella storia delle architetture alcune macchine sono state considerate antenate dei PC. Tra queste macchine troviamo:
+A) I computer concepiti da Seymour Cray lungo gli anni ’60: i CDC 8600 e CDC 6700
+B) il PDP-1 della DEC e l’IBM 7030, i primi computer economici degli anni ’60
+C) i primi prodotti commerciali della Intel, immessi sul mercato a partire dall’inizio degli anni ’70
+D) il DATAPOINT 2200 e, prima ancora, l’Olivetti Programma 101
 RISPOSTA: D
 
-DOMANDA: Il Manchester Small Scale Experimental Machine (SSEM):  
-A) usava come supporto di memoria primaria le Mercury Delay Lines.  
-B) fu progettato e costruito copiando ed estendendo il progetto dell’ENIAC  
-C) fu il primo computer a programma memorizzato a diventare effettivamente operativo  
-D) è il computer a programma memorizzato da cui deriva l’espressione architettura von Neumann  
+DOMANDA: Il Manchester Small Scale Experimental Machine (SSEM):
+A) usava come supporto di memoria primaria le Mercury Delay Lines.
+B) fu progettato e costruito copiando ed estendendo il progetto dell’ENIAC
+C) fu il primo computer a programma memorizzato a diventare effettivamente operativo
+D) è il computer a programma memorizzato da cui deriva l’espressione architettura von Neumann
 RISPOSTA: C
 
-DOMANDA: Nelle CPU progettate e costruite negli ultimi anni:  
-A) si adottò un modello architetturale messo a punto fra la fine degli anni ’70 e l’inizio degli anni ’80 da Hennessy e Patterson  
-B) si adottò il modello architetturale noto con l’acronimo CISC: Cached Instructions for Set of Cores  
-C) le porte logiche che la compongono sono realizzate mediante microprocessori miniaturizzati che hanno ormai sostituito i transistor  
-D) si adottò il modello architetturale noto con l’acronimo RISC: Reformulated Instructions for Semiconductor Cores  
+DOMANDA: Nelle CPU progettate e costruite negli ultimi anni:
+A) si adottò un modello architetturale messo a punto fra la fine degli anni ’70 e l’inizio degli anni ’80 da Hennessy e Patterson
+B) si adottò il modello architetturale noto con l’acronimo CISC: Cached Instructions for Set of Cores
+C) le porte logiche che la compongono sono realizzate mediante microprocessori miniaturizzati che hanno ormai sostituito i transistor
+D) si adottò il modello architetturale noto con l’acronimo RISC: Reformulated Instructions for Semiconductor Cores
 RISPOSTA: A
 
-DOMANDA: Dei diversi tipi di memorie sviluppate e utilizzate lungo la storia dell’Informatica possiamo dire che:  
-A) le Magnetic Core Memory incominciarono a declinare poco dopo l’invenzione del transistor, che permetteva di costruire memorie a semiconduttore  
-B) I Williams-Kilburn tubes furono inizialmente testati come memorie dell’SSEM  
-C) L’invenzione degli hard disk negli anni ’70 fu responsabile del declino delle memorie a tamburo rotante, usate lungo tutti gli anni ’60  
-D) Le Mercury Delay Lines furono inventate da John Eckert e usate per la prima volta nell’ENTAC  
+DOMANDA: Dei diversi tipi di memorie sviluppate e utilizzate lungo la storia dell’Informatica possiamo dire che:
+A) le Magnetic Core Memory incominciarono a declinare poco dopo l’invenzione del transistor, che permetteva di costruire memorie a semiconduttore
+B) I Williams-Kilburn tubes furono inizialmente testati come memorie dell’SSEM
+C) L’invenzione degli hard disk negli anni ’70 fu responsabile del declino delle memorie a tamburo rotante, usate lungo tutti gli anni ’60
+D) Le Mercury Delay Lines furono inventate da John Eckert e usate per la prima volta nell’ENTAC
 RISPOSTA: B
 
-DOMANDA: Il linguaggio Java:  
-A) si può considerare il primo dei linguaggi di scripting general purpose, a cui hanno fatto seguito ad esempio Python e PHP  
-B) viene ormai usato in modo esteso al posto del C anche per scrivere software di sistema, come compilatori, interpreti e sistemi operativi  
-C) è estremamente portabile grazie alla Java Virtual Machine, che interpreta il codice intermedio in cui viene tradotto un programma Java  
-D) è stato il linguaggio i cui nascita ha ispirato Tim Berners Lee a sviluppare il World Wide Web, all’inizio degli anni ’90  
+DOMANDA: Il linguaggio Java:
+A) si può considerare il primo dei linguaggi di scripting general purpose, a cui hanno fatto seguito ad esempio Python e PHP
+B) viene ormai usato in modo esteso al posto del C anche per scrivere software di sistema, come compilatori, interpreti e sistemi operativi
+C) è estremamente portabile grazie alla Java Virtual Machine, che interpreta il codice intermedio in cui viene tradotto un programma Java
+D) è stato il linguaggio i cui nascita ha ispirato Tim Berners Lee a sviluppare il World Wide Web, all’inizio degli anni ’90
 RISPOSTA: C
 
-DOMANDA: Nella storia dei Sistemi Operativi:  
-A) l’idea alla base dei sistemi batch era di ricorrere ad un programma speciale che amministrava la vita degli altri programmi, in particolare sovrapponendo le operazioni di input/output dei programmi in modo da risparmiare tempo: mentre un programma stampa i suoi risultati un altro programma viene letto per poter essere eseguito  
-B) l’idea alla base dei sistemi batch era di usare una sorta di supervisor che fosse in grado di accorgersi quando il programma in esecuzione doveva compiere una operazione di I/O in modo da togliergli temporaneamente la CPU per darla ad un altro programma pronto per iniziare o proseguire la propria computazione  
-C) l’idea alla base dei sistemi batch era di ricorrere a personale specializzato per l’inserimento dei dati e dei programmi nella memoria del computer, invece di lasciare questo compito ai singoli programmatori; l’addetto aveva poi la responsabilità di decidere l’ordine più conveniente per eseguire i programmi  
-D) l’idea alla base dei sistemi batch era di automatizzare il lavoro necessario per lanciare i programmi uno dopo l’altro, anziché dover ricorrere all’intervento umano per mandare in esecuzione ogni singolo programma; in altre parole, un programma che amministri la vita degli altri programmi  
+DOMANDA: Nella storia dei Sistemi Operativi:
+A) l’idea alla base dei sistemi batch era di ricorrere ad un programma speciale che amministrava la vita degli altri programmi, in particolare sovrapponendo le operazioni di input/output dei programmi in modo da risparmiare tempo: mentre un programma stampa i suoi risultati un altro programma viene letto per poter essere eseguito
+B) l’idea alla base dei sistemi batch era di usare una sorta di supervisor che fosse in grado di accorgersi quando il programma in esecuzione doveva compiere una operazione di I/O in modo da togliergli temporaneamente la CPU per darla ad un altro programma pronto per iniziare o proseguire la propria computazione
+C) l’idea alla base dei sistemi batch era di ricorrere a personale specializzato per l’inserimento dei dati e dei programmi nella memoria del computer, invece di lasciare questo compito ai singoli programmatori; l’addetto aveva poi la responsabilità di decidere l’ordine più conveniente per eseguire i programmi
+D) l’idea alla base dei sistemi batch era di automatizzare il lavoro necessario per lanciare i programmi uno dopo l’altro, anziché dover ricorrere all’intervento umano per mandare in esecuzione ogni singolo programma; in altre parole, un programma che amministri la vita degli altri programmi
 RISPOSTA: D
 
-DOMANDA: Il sistema Unix:  
-A) dopo essere stato scritto inizialmente nel linguaggio C, è poi stato portato su varie altre piattaforme hardware/software, e riscritto in C++ e in Object-C (sotto il nome di MacOS)  
-B) già pochi anni dopo la sua iniziale diffusione, fu in grado di suscitare un ampio interesse tra programmatori e ricercatori, che fondarono il “Unix User Group” dove scambiare opinioni ed esperienze  
-C) il fatto di essere stato scritto fin dall’inizio in C e quindi molto più facile da capire e da modificare, è stata tra le ragioni principali della sua enorme diffusione e successo  
-D) non poté essere sfruttato commercialmente dalla AT&T per rispettare leggi anti-monopolistiche, e infatti ancora oggi non esistono sistemi Unix-like che possano essere venduti sul mercato  
+DOMANDA: Il sistema Unix:
+A) dopo essere stato scritto inizialmente nel linguaggio C, è poi stato portato su varie altre piattaforme hardware/software, e riscritto in C++ e in Object-C (sotto il nome di MacOS)
+B) già pochi anni dopo la sua iniziale diffusione, fu in grado di suscitare un ampio interesse tra programmatori e ricercatori, che fondarono il “Unix User Group” dove scambiare opinioni ed esperienze
+C) il fatto di essere stato scritto fin dall’inizio in C e quindi molto più facile da capire e da modificare, è stata tra le ragioni principali della sua enorme diffusione e successo
+D) non poté essere sfruttato commercialmente dalla AT&T per rispettare leggi anti-monopolistiche, e infatti ancora oggi non esistono sistemi Unix-like che possano essere venduti sul mercato
 RISPOSTA: B
 
-
-DOMANDA : Tra gli eventi importanti per la storia delle architetture negli anni '60 ricordiamo:  
-A) 1) il debutto sul mercato della serie di computer IBM/360; 2) il debutto sul mercato della prima memoria a semiconduttore di successo, l'Intel 1103 o "Magnetic Core Memory Killer"; 3) il CDC 8600 di Seymour Cray  
-B) 1) il debutto sul mercato della serie di computer IBM/360; 2) l'invenzione del CDC 8600 di Seymour Cray; 3) l'ideazione dello schema di Tomasulo, che sta alla base delle architetture moderne  
-D) 1) l'invenzione del primo hard disk; 2) il CDC 8600 di Seymour Cray; 3) lo sviluppo della Olivetti Programma 101 (aka "Perottina"), che molti considerano il primo personal computer della storia  
-D) 1) il debutto sul mercato della serie di computer IBM/360; 2) l'invenzione del mouse; 3) l'uscita sul mercato della prima memoria a semiconduttore di successo, l'Intel 1103 o "Magnetic Core Memory Killer"  
+DOMANDA: Tra gli eventi importanti per la storia delle architetture negli anni '60 ricordiamo:
+A) 1) il debutto sul mercato della serie di computer IBM/360; 2) il debutto sul mercato della prima memoria a semiconduttore di successo, l'Intel 1103 o "Magnetic Core Memory Killer"; 3) il CDC 8600 di Seymour Cray
+B) 1) il debutto sul mercato della serie di computer IBM/360; 2) l'invenzione del CDC 6600 di Seymour Cray; 3) l'ideazione dello schema di Tomasulo, che sta alla base delle architetture moderne
+C) 1) l'invenzione del primo hard disk; 2) il CDC 6600 di Seymour Cray; 3) lo sviluppo della Olivetti Programma 101 (aka "Perottina"), che molti considerano il primo personal computer della storia
+D) 1) il debutto sul mercato della serie di computer IBM/360; 2) l'invenzione del mouse; 3) l'uscita sul mercato della prima memoria a semiconduttore di successo, l'Intel 1103 o "Magnetic Core Memory Killer"
 RISPOSTA: B
- 
-DOMANDA: Il linguaggio Pascal:  
-A) usando solo pochi tipi di base, e dotato solo di variabili non strutturate, risultò in uno dei primi linguaggi davvero efficienti  
-B) era molto popolare negli anni '80, ma dovette poi cedere il passo a linguaggi più strutturati, come il C e il Prolog  
-C) non era certo apprezzato per la sua scarsa portabilità su piattaforme diverse, ma molto per la sua efficienza  
-D) introdusse tra le altre cose l’idea di un codice oggetto virtuale che favoriva l’uso del linguaggio su piattaforme diverse  
 
+DOMANDA: Il linguaggio Pascal:
+A) usando solo pochi tipi di base, e dotato solo di variabili non strutturate, risultò in uno dei primi linguaggi davvero efficienti
+B) era molto popolare negli anni '80, ma dovette poi cedere il passo a linguaggi più strutturati, come il C e il Prolog
+C) non era certo apprezzato per la sua scarsa portabilità su piattaforme diverse, ma molto per la sua efficienza
+D) introdusse tra le altre cose l’idea di un codice oggetto virtuale che favoriva l’uso del linguaggio su piattaforme diverse
 RISPOSTA: D
 
+DOMANDA: Nella storia dei Sistemi Operativi:
+A) nel constesto del progetto MULTICS emerse il concetto di File System in senso moderno, anche se non fu implementato in quel sistema operativo
+B) il MULTICS si può a ragione considerare il predecessore dello Unix, al quale ispirò molte delle caratteristiche fondamentali
+C) il MULTICS ha rappresentato, insieme all’OS /360, l'esempio più significativo di sistema operativo time sharing più diffuso degli anni ‘60
+D) il sistema operativo MULTICS rappresentò il primo esempio di sitema timesharing funzionante
+RISPOSTA: A
 
+DOMANDA: Nella storia dei Personal Computer:
+A) il BIOS costituì il primo esempio di sistema operativo "general purpose", trasportabile da una piattaforma ad un'altra grazie al CP/M inventato da Gary Kildall
+B) l'invenzione del BIOS permise di scrivere applicazioni che potevano essere condivise più facilmente tra piattaforme dotate di sistemi operativi diversi
+C) Gary Kildall ebbe un ruolo fondamentare nell'inventare una tecnica per portare velocemente un sistema operativo a una piattaforma ad un'altra senza doverlo riscrivere completamente
+D) l'enorme successo del sistema operativo DOS fu dovuto al fatto che era disponibile il codice sorgente scritto in C, e quindi poteva essere portato facilmente da una piattaforma hardware ad un'altra
+RISPOSTA: C
 
+DOMANDA: Il linguaggio Pascal:
+A) favoriva la portabilità su piattaforme diverse attraverso un interprete bytecode
+B) favoriva la scrittura di programmi di facile comprensione e veloci grazie ad un uso esteso dei puntatori
+C) rispetto ad altri linguaggi incoraggiava la scrittura di programmi senza errori grazie ad un sistema di tipatura molto rigoroso
+D) favoriva la scrittura di programmi organizzati in procedure e funzioni grazie ad un sistema di di passaggio dei parametri basato sul call by name e by reference
+RISPOSTA: C
+
+DOMANDA: tra gli eventi importanti per la storia delle architetture negli anni '40 ricordiamo:
+A) Alan Turing contribuisce a decrittare messaggi cifrati usando macchine elettromeccaniche note come "bombe", viene progettato e prodotto l'ENIAC
+B) Alan Turing collabora con i servizi segreti inglesi per decifrare i messaggi criptati dell'esercito tedesco; entra in funzione il primo computer a programma memorizzato, l'ENIAC
+C) vengono concepiti due modelli architetturali fondamentali: l'architettura Harward e l'architettura RISC
+D) vengono progettati e costruiti i primi computer computer moderni, come l'SSEM e l'EDSAC, e nasce il primo hard disk
+RISPOSTA: A
+
+DOMANDA: La Apple fu fondata da Steve Jobs e da ________. Nonostante i successi di vendita iniziali, nella prima metà degli anni '80 fu però sopravanzata sul mercato dei personal computer dalla ________. Grazie tuttavia all'enorme successo di vendite di un nuovo modello, il __________, (tra l'altro ispirato al sistema _______ della Xerox) le sorti dell'azienda si risollevarono.
+A) Steve Wozniak, Microsoft, Lisa, 5150
+B) Steve Wozniak, IBM, Apple II, 5150
+C) Steve Wozniak, IBM, Lisa, Alto
+D) Steve Wozniak, IBM, Macintosh, Alto
+RISPOSTA: D
+
+DOMANDA: Nella storia dei linguaggi di programmazione:
+A) Il Fortran non era strutturato ed efficiente, e in più non aveva un sistema di tipi. L'Algol, per quanto efficiente e portabile, portava a scrivere programmi di difficile comprensione
+B) lo Smalltalk cercò di migliorare i difetti del BASIC ma alla fine aveva un sistema di tipi troppo rigido e inadatto per semplici applicazioni. Il Simula 67 riformulò l'Algol sulla base del paradigma Object Oriented, col risultato di essere difficile da usare per scrivere semplici programmi
+C) Il BASIC favoriva la scrittura del cosiddetto "spaghetti code", e secondo alcuni l'uso del BASIC impediva di imparare a programmare. Il COBOL non era adatto per applicazioni scientifiche e general purpose, tanto che alcuni pensavano che l'insegnarlo fosse quasi un crimine
+D) il Prolog fu il responsabile del fallimento del progetto noto come "5th Generation Computer Systems (FGCS). Il LISP aveva una sintassi come minimo "scomoda", era enormemente difficile da compilare e e si riteneva che fosse dannoso per imparare a programmare
+RISPOSTA: C
+
+DOMANDA: Il transistor:
+A) è sostanzialmente un amplificatore di segnale elettrico, che può anche essere usato per far passare o interrompere il segnale, funzionando quindi come uno switch
+B) è stato responsabile di importanti avanzamenti tecnologici nell'industria dei computer, ad esempio ha permesso di costruire memorie a nucleo magnetico molto più piccole ed economiche
+C) funzionando come un interruttore, permette di memorizzare in modo permanente un singolo bit di informazione in uno spazio molto piccolo, un po' come gli anelli di ferrite delle magnetic core memory
+D) è stato il componente fondamentale per la costruzione dei computer negli anni '60 e '70, poi soppiantato dai circuiti integrati
+RISPOSTA: A
+
+DOMANDA: Negli anni, la percezione che il grande pubblico ha dell'informatica e della scienza dei computer è cambiata, e gran parte di questo cambiamento è dovuto al ruolo giocato dai Sistemi Operativi, in quanto:
+A) nel tempo i sistemi operativi moderni hanno reso sempre più facile scrivere programmi anche per chi non ha una formazione informatica specifica
+B) con i sistemi operativi moderni non è più necessario saper programmare per poter usare un computer
+C) i sistemi operativi hanno reso sempre più facili da usare macchine sempre più sofisticate e complesse
+D) i sistemi operativi recenti permettono di sfruttare a fondo l'enorme potere computazionale delle macchine moderne
+RISPOSTA: C
+
+DOMANDA: Nella storia dei Personal Computer:
+A) le interfacce grafiche furono introdotte per la prima volta nel sistema Alto a cui, nel 1981, si ispirò anche la IBM per il suo primo PC
+B) il CP/M di Gary Kildall costituì il primo esempio di sistema operativo per personal computer a interfaccia grafica
+C) la possibilità di usare lo stesso sistema operativo su computer diversi fu resa molto più facile dall'invenzione del Basic Input/Output System
+D) il sistema Linux, il MacOS e il CP/M rappresentano tre esempi di sistemi operativi Unix-like scritti proprio per adattarsi alle peculiarità di questo tipo di computer
+RISPOSTA: C
+
+DOMANDA: Per codice non strutturato si intende codice in cui la computazione procede attraverso test e un uso estensivo di GOTO, cosa aspramente criticata da ________________. Purtroppo alcuni linguaggi, come ____________ favorivano proprio la scrittura di spaghetti code. Furono ________________ a dimostrare che era possibile scrivere qualsiasi programma usando solo sequenze di istruzioni, ed istruzioni di tipo _________________ .
+A) Donald Knuth, Basic e Fortran, Johan Dahl e Giuseppe Jacopini, selezione o iterazione
+B) Edsger Dijkstra, Basic e Fortran, Corrado Bohm e Giuseppe Jacopini, selezione o iterazione
+C) Edsger Dijkstra, Algol e Cobol, Corrado Bohm e Giuseppe Jacopini, selezione o iterazione
+D) Edsger Dijkstra, Basic e Fortran, Corrado Bohm e Giuseppe Jacopini, if-then-else o salti condizionati
+RISPOSTA: B
+
+DOMANDA: Il linguaggio Java:
+A) è stato il linguaggio a partire dal quale è iniziato lo sviluppo di Internet e del World Wide Web
+B) fu sviluppato per competere con il C++ come linguaggio di riferimento del World Wide Web
+C) il suo successo iniziale è strettamente legato alla nascita quasi contemporanea del World Wide Web
+D) si può considerare il capostipite di tutti i linguaggi di scripting general purpose, come javascript e ruby
+RISPOSTA: C
+
+DOMANDA: Negli anni '60:
+A) L'ALGOL incominciò a sostituirsi al FORTRAN per l'implementazione degli algoritmi
+B) L'ALGOL si affermò come linguaggio ad alto livello per la descrizione degli algoritmi
+C) il BASIC e il FORTRAN incominciarono a cadere in disuso in seguito alla dimostrazione del teorema Böhm-Jacopini
+D) fu sviluppato il BASIC, che incominciò il suo declino negli anni '70 e '80
+RISPOSTA: B
+
+DOMANDA: L'EDVAC:
+A) fu progettato da John von Neumann, ed è da esso che prese poi il via il progetto dell'ENIAC
+B) E' stato il primo computer a "programma memorizzato" ad usare come memorie i Williams-Kilburn tubes
+C) fu progettato per facilitare il calcolo delle traiettorie balistiche in occasione della seconda guerra mondiale
+D) non è stato il primo computer a programma memorizzato ad essere effettivamente costruito e a diventare operativo
+RISPOSTA: D
+
+DOMANDA: Nella storia dei sistemi operativi:
+A) il MULTICS fu negli anni '60 il più diffuso sistema operativo insieme all'OS/360, e il suo uso cominciò a declinare solo con la
+comparsa dello UNIX
+B) il MULTICS fu sviluppato in un linguaggio ad alto livello, il C, il che fu la causa principale della sua inefficienza
+C) il MULTICS permise per la prima volta di implementare il concetto di file system in senso moderno
+D) il MULTICS fu sviluppato, sotto la guida di Robert Fano, a partire dall'esperienza del CTSS
+RISPOSTA: D
+
+DOMANDA: in che modo i sistemi time sharing degli anni '60 e '70 hanno influenzato i primi sistemi operativi per personal computer?
+A) il modo di funzionare dei sistemi time sharing ispirò Gary Kildall nell'invenzione del BIOS, il "Basic Instructions Operating System"
+B) in nessun modo, perché i primi personal computer erano macchine semplicissime e dotate di pochissime risorse hardware, su cui sarebbe stato impossibile far funzionare un qualsiasi sistema operativo time sharing
+C) permisero di capire che la funzione fondamentale che doveva svolgere un sistema operativo per personal computer era quella di implementare un file system gerarchico sull'hard disk di cui erano dotati. (DOS significa infatti "Disk Operating System")
+D) l'esperienza con i sistemi timesharing permise di implementare i servizi che fornivano anche sui personal computer che incominciavano a venire prodotti negli anni '70
+RISPOSTA: B
+
+DOMANDA: Nella storia dei Sistemi Operativi:
+A) il concetto di "multitasking" fu formulato già negli anni ’50 come tecnica per limitare (e se possibile evitare) le attese dovute all'uso delle periferiche di input/output
+B) l'implementazione del multitasking permise di usare i nastri magnetici come dispositivi di I/O ad accesso diretto, benché più lenti degli hard disk
+C) il multitasking incominciò ad essere implementato quando i progettisti dell'hardware furono in grado di inserire un timer hardware nei processori
+D) il multitasking fu probabilmente la più importante idea originale introdotta dai sistemi operativi OS/360 della IBM
+RISPOSTA: A
